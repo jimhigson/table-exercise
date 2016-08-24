@@ -1,0 +1,14 @@
+table {
+    background-color: #bbb;
+    min-height: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+body {
+    margin: 30px;
+}
+
+h1 {
+    font-size: 30px;
+}

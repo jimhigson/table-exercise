@@ -1,0 +1,28 @@
+{
+  "metadata": [
+    "Name", "Occupation", "Favourite colour"
+  ],
+  "data":[
+    { "name": "Holmes",
+      "Occupation": "Detective",
+      "Favourite color": "beige"
+    },
+    { "name": "Homer",
+      "Occupation": "Supervising technician",
+      "Favourite color": "yellow"
+    },
+    { "name": "Mario",
+      "Occupation": "Plumber",
+      "Favourite color": "blue"
+    },
+    { "name": "Alex",
+      "Occupation": "Droogmaster",
+      "Favourite color": "white"
+    },
+    { "name": "Harry",
+      "Occupation": "Wizard",
+      "Favourite color": "silver"
+    }
+  ]
+}
+

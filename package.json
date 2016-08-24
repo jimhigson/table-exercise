@@ -1,0 +1,19 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "* can use ECMA6 so far as is supported in Chrome",
+  "main": "index.js",
+  "dependencies": {
+    "karma-jasmine": "^1.0.2"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.2.0",
+    "karma-jasmine": "^1.0.2"
+  },
+  "scripts": {
+    "test": "node_modules/karma/bin/karma start"
+  },
+  "author": "",
+  "license": "ISC"
+}

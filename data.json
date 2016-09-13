@@ -20,8 +20,8 @@
       "Favourite color": "white"
     },
     { "name": "Harry",
-      "Occupation": "Wizard",
-      "Favourite color": "silver"
+      "Favourite color": "silver",
+      "Occupation": "Wizard"
     }
   ]
 }

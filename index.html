@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-    <script src="index.js"></script>
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-    <meta charset="UTF-8">
-    <title>Table thing</title>
-</head>
-<body>
+<html lang="en" ng-app="tableApp">
+	<head>
+	    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+	    <script src="index.js"></script>
+	    <link rel="stylesheet" href="reset.css" />
+	    <link rel="stylesheet" href="style.css" />
+	    <meta charset="UTF-8">
+	    <title>Table thing</title>
+	</head>
+	<body>
 
-    <h1>Table of people</h1>
+	    <h1>Table of people</h1>
 
-    <table></table>
+		<table ng-controller="tableController as vm">
+		    <tr>
+		        <th ng-repeat="heading in vm.headings">{{heading | tableHeadingFilter}}</th>
+		    </tr>
+		    <tr ng-repeat="item in vm.content">
+		        <td ng-repeat="heading in vm.headings">{{vm.getField(item, heading)}}</td>
+		    </tr>
+		</table>
 
-</body>
+	</body>
 </html>
